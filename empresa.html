@@ -1,36 +1,51 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Publicar Vaga - DocDigitalPro Empregos</title>
+
+<title>DocDigitalPro Empregos</title>
 
 <style>
 
 body{
+margin:0;
 font-family:Arial,sans-serif;
 background:#f2f5f9;
-padding:20px;
+}
+
+header{
+background:#0066cc;
+color:white;
+text-align:center;
+padding:50px 20px;
+}
+
+header h1{
+margin:0;
+font-size:48px;
 }
 
 .container{
-max-width:800px;
+max-width:1000px;
 margin:auto;
+padding:20px;
+}
+
+.card{
 background:white;
 padding:20px;
+margin-bottom:20px;
 border-radius:12px;
 box-shadow:0 2px 10px rgba(0,0,0,0.1);
 }
 
-h1{
-color:#0066cc;
-text-align:center;
-}
-
-input, textarea{
+input{
 width:100%;
 padding:12px;
-margin:10px 0;
+margin-top:10px;
+margin-bottom:10px;
 border:1px solid #ccc;
 border-radius:8px;
 box-sizing:border-box;
@@ -43,10 +58,181 @@ border:none;
 padding:12px 20px;
 border-radius:8px;
 cursor:pointer;
+font-size:16px;
+}
+
+button:hover{
+background:#004999;
+}
+
+.vaga{
+border-left:5px solid #0066cc;
+padding-left:15px;
+margin-bottom:15px;
+}
+
+.menu{
+margin-top:20px;
+}
+
+.menu a{
+text-decoration:none;
+margin:5px;
+}
+
+footer{
+background:#222;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:30px;
 }
 
 </style>
 
 </head>
 
-<body
+<body>
+
+<header>
+
+<h1>💼 DocDigitalPro Empregos</h1>
+
+<p><strong>Vagas perto de você. Oportunidades para sua região.</strong></p>
+
+<p>
+A DocDigitalPro Empregos conecta empresas e candidatos de Lapa-PR e região, facilitando o contato direto entre quem oferece vagas e quem procura uma oportunidade de trabalho.
+</p>
+
+<div class="menu">
+
+<a href="index.html">
+<button>🏠 Início</button>
+</a>
+
+<a href="curriculo.html">
+<button>📄 Currículo</button>
+</a>
+
+<a href="empresa.html">
+<button>🏢 Empresas</button>
+</a>
+
+</div>
+
+</header>
+
+<div class="container">
+
+<div class="card">
+
+<h2>🔎 Buscar Vagas</h2>
+
+<input type="text" placeholder="Sua cidade">
+
+<input type="text" placeholder="Cargo desejado">
+
+<button>Buscar Vagas</button>
+
+</div>
+
+<div class="card">
+
+<h2>📍 Vagas da Região</h2>
+
+<div class="vaga">
+<h3>Auxiliar Administrativo</h3>
+<p>📍 Lapa - PR</p>
+<p>🏢 Empresa Exemplo</p>
+<p>📧 contato@empresa.com.br</p>
+</div>
+
+<div class="vaga">
+<h3>Atendente</h3>
+<p>📍 Porto Amazonas - PR</p>
+<p>🏢 Empresa Exemplo</p>
+<p>📧 rh@empresa.com.br</p>
+</div>
+
+<div class="vaga">
+<h3>Operador de Caixa</h3>
+<p>📍 Contenda - PR</p>
+<p>🏢 Empresa Exemplo</p>
+<p>📧 vagas@empresa.com.br</p>
+</div>
+
+</div>
+
+<div class="card">
+
+<h2>🤝 Como Funciona?</h2>
+
+<p>1️⃣ Empresas publicam suas vagas.</p>
+
+<p>2️⃣ Os candidatos encontram oportunidades da região.</p>
+
+<p>3️⃣ O contato acontece diretamente entre empresa e candidato.</p>
+
+<p>4️⃣ Simples, rápido e sem intermediários.</p>
+
+</div>
+
+<div class="card">
+
+<h2>📄 Criar Currículo</h2>
+
+<p>Monte seu currículo de forma simples e rápida.</p>
+
+<a href="curriculo.html">
+<button>Criar Currículo</button>
+</a>
+
+</div>
+
+<div class="card">
+
+<h2>🏢 Publicar Vaga</h2>
+
+<p>Empresas podem publicar vagas gratuitamente.</p>
+
+<a href="empresa.html">
+<button>Publicar Vaga</button>
+</a>
+
+</div>
+
+<div class="card">
+
+<h2>✅ Por que escolher a DocDigitalPro?</h2>
+
+<p>✅ Foco em Lapa-PR e região</p>
+
+<p>✅ Contato direto entre empresa e candidato</p>
+
+<p>✅ Vagas perto de você</p>
+
+<p>✅ Sem redirecionamentos</p>
+
+<p>✅ Processo simples</p>
+
+<p>✅ Empresas locais</p>
+
+<p>✅ Apoio com documentos e currículos</p>
+
+</div>
+
+</div>
+
+<footer>
+
+DocDigitalPro Empregos © 2026
+
+<br><br>
+
+Lapa-PR e Região
+
+</footer>
+
+</body>
+
+</html>
