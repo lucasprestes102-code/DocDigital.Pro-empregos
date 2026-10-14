@@ -8,16 +8,21 @@
 <style>
 
 body{
+margin:0;
 font-family:Arial,sans-serif;
 background:#f2f5f9;
-margin:0;
 }
 
 header{
 background:#0066cc;
 color:white;
 text-align:center;
-padding:40px 20px;
+padding:50px 20px;
+}
+
+header h1{
+margin:0;
+font-size:42px;
 }
 
 .menu{
@@ -30,12 +35,13 @@ margin:5px;
 }
 
 button{
-background:#0066cc;
-color:white;
+background:white;
+color:#0066cc;
 border:none;
 padding:12px 20px;
 border-radius:8px;
 cursor:pointer;
+font-weight:bold;
 }
 
 .container{
@@ -53,9 +59,9 @@ box-shadow:0 2px 10px rgba(0,0,0,0.1);
 }
 
 label{
-font-weight:bold;
 display:block;
 margin-top:10px;
+font-weight:bold;
 }
 
 input, textarea{
@@ -68,6 +74,11 @@ border-radius:8px;
 box-sizing:border-box;
 }
 
+.botao-salvar{
+background:#0066cc;
+color:white;
+}
+
 footer{
 background:#222;
 color:white;
@@ -77,7 +88,6 @@ margin-top:30px;
 }
 
 </style>
-
 </head>
 
 <body>
@@ -86,7 +96,7 @@ margin-top:30px;
 
 <h1>📄 Currículo Profissional</h1>
 
-<p>Monte seu currículo de forma simples e rápida.</p>
+<p><strong>Monte seu currículo de forma simples e rápida.</strong></p>
 
 <div class="menu">
 
@@ -110,9 +120,11 @@ margin-top:30px;
 
 <div class="card">
 
-<h2>Dados Pessoais</h2>
+<h2>📋 Preencha seus Dados Profissionais</h2>
 
-<p>Preencha seus dados abaixo:</p>
+<p>
+Preencha suas informações para montar seu currículo profissional.
+</p>
 
 <label>Nome Completo</label>
 <input type="text">
@@ -134,7 +146,9 @@ margin-top:30px;
 
 <br>
 
-<button>Salvar Informações</button>
+<button class="botao-salvar">
+Salvar Informações
+</button>
 
 </div>
 
